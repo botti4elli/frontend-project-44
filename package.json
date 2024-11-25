@@ -10,8 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/botti4elli/frontend-project-44.git"
   },
-  "author": "",
+  "author": "botti4elli",
   "license": "ISC",
+
   "bugs": {
     "url": "https://github.com/botti4elli/frontend-project-44/issues"
   },
@@ -28,5 +29,8 @@
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
