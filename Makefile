@@ -8,3 +8,8 @@ brain-games:
 
 publish:
 	npm publish --dry-run
+
+NPM = npx
+
+lint:
+	$(NPM) eslint .

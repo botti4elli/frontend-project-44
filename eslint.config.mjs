@@ -6,25 +6,25 @@ import eslintPluginReact from "eslint-plugin-react";
 
 export default [
   {
+    files: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'], // Файлы, которые будет проверять ESLint
     languageOptions: {
       globals: globals.browser,
-      ecmaVersion: 'latest', // поддержка современных возможностей JavaScript
-      sourceType: 'module',  // использование ES-модулей
+      ecmaVersion: 'latest', // Поддержка современных возможностей JavaScript
+      sourceType: 'module',  // Использование ES-модулей
     },
-    plugins: {
-      react: eslintPluginReact,
-    },
+    plugins: [
+      eslintPluginReact, // Подключение плагина React
+    ],
     rules: {
-      'react/react-in-jsx-scope': 'off', // если нужно отключить правило
+      'react/react-in-jsx-scope': 'off', // Отключаем правило для React 17+
     },
     settings: {
       react: {
-        version: 'detect', // автоматическое определение версии React
+        version: 'detect', // Автоматическое определение версии React
       },
     },
-    files: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'], // файлы, которые будет проверять ESLint
   },
-  pluginJs.configs.recommended,
-  ...tseslint.configs.recommended,
-  pluginReactConfig,
+  pluginJs.configs.recommended, // Базовые правила ESLint
+  ...tseslint.configs.recommended, // Правила для TypeScript
+  pluginReactConfig, // Рекомендации для React
 ];
