@@ -1,5 +1,6 @@
 import readline from 'readline-sync';
 import { greetUser } from '../cli.js';
+import getRandomNumber from '../utils/random.js';
 
 const isEven = (num) => num % 2 === 0;
 
@@ -11,7 +12,7 @@ const playBrainEven = () => {
     let correctAnswers = 0;
 
     while (correctAnswers < maxCorrectAnswers) {
-        const number = Math.floor(Math.random() * 100) + 1;
+        const number = getRandomNumber(1, 100);
         console.log(`Question: ${number}`);
 
         const userAnswer = readline.question('Your answer: ').toLowerCase();

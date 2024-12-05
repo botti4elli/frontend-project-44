@@ -3,7 +3,7 @@ import { greetUser } from './cli.js';
 
 const MAX_ROUNDS = 3;
 
-export const runGame = (description, generateRound) => {
+const runGame = (description, generateRound) => {
     const userName = greetUser();
     console.log(description);
 
@@ -24,3 +24,4 @@ export const runGame = (description, generateRound) => {
 
     console.log(`Congratulations, ${userName}!`);
 };
+export default runGame;

@@ -52,3 +52,10 @@ cd frontend-project-44
 
 #### Пример поражения:
 [Демонстрация](https://asciinema.org/a/WnQejuDaPNmvUraDj9kQyBinY)
+
+    ### Игра "Арифметическая прогрессия" (brain-progression)
+#### Пример выигрыша:
+[Демонстрация] (https://asciinema.org/a/nX6F0RoqYf5qF2W7jW7Ez0Mct)
+
+#### Пример поражения:
+[Демонстрация](https://asciinema.org/a/fVERDeRAmJhQXrC00VlMunYDe)
