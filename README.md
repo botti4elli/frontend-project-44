@@ -20,7 +20,7 @@
 ### Клонируйте репозиторий:
 ```bash
 git clone https://github.com/botti4elli/frontend-project-44.git
-cd frontend-project-44
+cd frontend-project-44 ```
 
    #### Установка пакетов
 [Демонстрация](https://asciinema.org/a/qGVApFnh9B1d5P5T9PXOlG1bU)
@@ -59,3 +59,11 @@ cd frontend-project-44
 
 #### Пример поражения:
 [Демонстрация](https://asciinema.org/a/fVERDeRAmJhQXrC00VlMunYDe)
+
+ ### Игра "Простое число" (brain-prime)
+ Ответьте "yes", если данное число является простым, или "no" в обратном случае.
+#### Пример выигрыша:
+[Демонстрация] (https://asciinema.org/a/S1Ru1YpC4PL3mCqfYv71WcnaB)
+
+#### Пример поражения:
+[Демонстрация](ttps://asciinema.org/a/Dx270MxyeUZTq2qhVrhJGw6vs)
