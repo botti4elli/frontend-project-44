@@ -1,17 +1,17 @@
-import readline from 'readline-sync';
-import greetUser from './cli.js';
+import readlineSync from 'readline-sync';
+import greetUser from './greeting.js';
 
-const MAX_ROUNDS = 3;
+const maxRounds = 3;
 
 const runGame = (description, generateRound) => {
   const userName = greetUser();
   console.log(description);
 
-  for (let round = 0; round < MAX_ROUNDS; round += 1) {
+  for (let round = 0; round < maxRounds; round += 1) {
     const [question, correctAnswer] = generateRound();
 
     console.log(`Question: ${question}`);
-    const userAnswer = readline.question('Your answer: ');
+    const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer !== correctAnswer) {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
@@ -24,4 +24,5 @@ const runGame = (description, generateRound) => {
 
   console.log(`Congratulations, ${userName}!`);
 };
+
 export default runGame;

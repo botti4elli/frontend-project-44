@@ -1,30 +1,17 @@
 import runGame from '../index.js';
 import getRandomNumber from '../utils/random.js';
+import calculateExpression from '../utils/calculateExpression.js';
 
 const description = 'What is the result of the expression?';
 
 const generateRound = () => {
-  const num1 = getRandomNumber(1, 20);
-  const num2 = getRandomNumber(1, 20);
+  const firstNumber = getRandomNumber(1, 20);
+  const secondNumber = getRandomNumber(1, 20);
   const operators = ['+', '-', '*'];
   const operator = operators[getRandomNumber(0, operators.length - 1)];
 
-  const question = `${num1} ${operator} ${num2}`;
-  let correctAnswer;
-
-  switch (operator) {
-    case '+':
-      correctAnswer = (num1 + num2).toString();
-      break;
-    case '-':
-      correctAnswer = (num1 - num2).toString();
-      break;
-    case '*':
-      correctAnswer = (num1 * num2).toString();
-      break;
-    default:
-  }
-
+  const question = `${firstNumber} ${operator} ${secondNumber}`;
+  const correctAnswer = calculateExpression(firstNumber, secondNumber, operator).toString();
   return [question, correctAnswer];
 };
 

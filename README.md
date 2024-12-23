@@ -8,6 +8,7 @@
 - "Проверка на чётность" (`brain-even`)
 - "Калькулятор" (`brain-calc`)
 - "Наибольший общий делитель" (`brain-gcd`)
+- "Арифметическая прогрессия" (`brain-progression`)
 
 Удачи и приятной игры!
 
@@ -22,48 +23,40 @@
 git clone https://github.com/botti4elli/frontend-project-44.git
 cd frontend-project-44 ```
 
-   #### Установка пакетов
-[Демонстрация](https://asciinema.org/a/qGVApFnh9B1d5P5T9PXOlG1bU)
+#### Установка пакетов
+    
+### Игра "Проверка на чётность" 
    
-   ### Игра "Проверка на чётность" (brain-even)
-
 #### Запуск игры:
-[Демонстрация](https://asciinema.org/a/aFsODqa1nefbJ6obIKj7tgqWB)
 
-#### Пример выигрыша:
-[Демонстрация](https://asciinema.org/a/ms2H8RoQaeKAZyBHO4kZmqCej)
+#### Выигрыш:
 
-#### Пример поражения:
-[Демонстрация](https://asciinema.org/a/Iux79zw13jjjwOySwvnRXtcno)
+#### Поражение:
   
-   ### Игра "Калькулятор" (brain-сфдс)
+### Игра "Калькулятор" 
 
-#### Пример выигрыша:
-[Демонстрация](https://asciinema.org/a/Kdbpbqp9tUDlSknBZFe6mX0Tq)
+#### Выигрыш:
+<a href="https://asciinema.org/a/awIsCdlRHaT0W1azhcD6974R0" target="_blank"><img src="https://asciinema.org/a/awIsCdlRHaT0W1azhcD6974R0.svg" alt="Demonstration Video" /></a>
 
-#### Пример поражения:
-[Демонстрация](https://asciinema.org/a/yuvdoeScsDeFgWiaKxIMmY31f)
+#### Поражение:
+<a href="https://asciinema.org/a/dyPowpseASUfegbImQFulOB0Y" target="_blank"><img src="https://asciinema.org/a/dyPowpseASUfegbImQFulOB0Y.svg" alt="Demonstration Video" /></a>
 
 
-### Игра "НОД" (brain-gsd)
 
-#### Пример выигрыша:
-[Демонстрация](https://asciinema.org/a/jDXqMYavxFqK7ZWAJyvjr88WZ)
+### Игра "НОД"
 
-#### Пример поражения:
-[Демонстрация](https://asciinema.org/a/WnQejuDaPNmvUraDj9kQyBinY)
+#### Выигрыш:
 
-    ### Игра "Арифметическая прогрессия" (brain-progression)
-#### Пример выигрыша:
-[Демонстрация] (https://asciinema.org/a/nX6F0RoqYf5qF2W7jW7Ez0Mct)
-
-#### Пример поражения:
-[Демонстрация](https://asciinema.org/a/fVERDeRAmJhQXrC00VlMunYDe)
-
- ### Игра "Простое число" (brain-prime)
+#### Поражение:
+ 
+### Игра "Арифметическая прогрессия" 
+#### Выигрыш:
+ 
+#### Поражение:
+ 
+   ### Игра "Простое число"  
  Ответьте "yes", если данное число является простым, или "no" в обратном случае.
-#### Пример выигрыша:
-[Демонстрация] (https://asciinema.org/a/S1Ru1YpC4PL3mCqfYv71WcnaB)
-
-#### Пример поражения:
-[Демонстрация](ttps://asciinema.org/a/Dx270MxyeUZTq2qhVrhJGw6vs)
+#### Выигрыш:
+ 
+#### Поражение:
+ 

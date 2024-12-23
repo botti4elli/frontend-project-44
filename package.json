@@ -26,11 +26,11 @@
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js",
-    "brain-calc": "bin/brain-calc.js",
-    "brain-gcd": "bin/brain-gcd.js",
-    "brain-progression": "bin/brain-progression.js",
-    "brain-prime": "./bin/brain-prime.js"
+    "brain-even": "bin/evenGame.js",
+    "brain-calc": "bin/calcGame.js",
+    "brain-gcd": "bin/gcdGame.js",
+    "brain-progression": "bin/progressionGame.js",
+    "brain-prime": "bin/primeGame.js"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
