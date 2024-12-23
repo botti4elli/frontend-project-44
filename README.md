@@ -8,6 +8,7 @@
 - "Калькулятор" (`brain-calc`)
 - "Наибольший общий делитель" (`brain-gcd`)
 - "Арифметическая прогрессия" (`brain-progression`)
+- "Простое число" (`brain-prime`)
 
 Удачи и приятной игры!
 
@@ -39,7 +40,7 @@ cd frontend-project-44
 [![asciicast](https://asciinema.org/a/awIsCdlRHaT0W1azhcD6974R0.svg)](https://asciinema.org/a/awIsCdlRHaT0W1azhcD6974R0)
 ##### Поражение:
 [![asciicast](https://asciinema.org/a/dyPowpseASUfegbImQFulOB0Y.svg)](https://asciinema.org/a/dyPowpseASUfegbImQFulOB0Y)
-#### Игра "НОД"
+#### Игра "Наибольший общий делитель"
 ##### Выигрыш:
 [![asciicast](https://asciinema.org/a/0s7bq2sysq8tHQuOoJVDg7VFO.svg)](https://asciinema.org/a/0s7bq2sysq8tHQuOoJVDg7VFO)
 ##### Поражение:
