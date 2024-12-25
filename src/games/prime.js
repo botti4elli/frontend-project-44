@@ -1,5 +1,12 @@
 import getRandomNumber from '../utils/random.js';
-import isPrime from '../utils/isPrime.js';
+
+const isPrime = (num) => {
+  if (num <= 1) return false;
+  for (let i = 2; i <= num / 2; i += 1) {
+    if (num % i === 0) return false;
+  }
+  return true;
+};
 
 export const generateRound = () => {
   const number = getRandomNumber(1, 100);

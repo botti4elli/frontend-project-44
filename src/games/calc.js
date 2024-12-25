@@ -11,8 +11,8 @@ const generateRound = () => {
   const operator = operators[getRandomNumber(0, operators.length - 1)];
 
   const question = `${firstNumber} ${operator} ${secondNumber}`;
-  const correctAnswer = calculateExpression(firstNumber, secondNumber, operator).toString();
-  return [question, correctAnswer];
+  const answer = calculateExpression(firstNumber, secondNumber, operator).toString();
+  return [question, answer];
 };
 
 const playBrainCalc = () => runGame(description, generateRound);
