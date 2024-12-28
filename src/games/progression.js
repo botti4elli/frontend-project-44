@@ -1,4 +1,4 @@
-import getRandomNumber from '../utils/random.js';
+import getRandomNumber from '../utils/getRandomNumber.js';
 import generateProgressionArray from '../utils/generateProgressionArray.js';
 
 const generateProgression = () => {
